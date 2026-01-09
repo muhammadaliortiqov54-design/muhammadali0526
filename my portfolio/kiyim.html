@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Platinum Bank</title>
+<link rel="stylesheet" href="kiyim.css">
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    <div class="container header-container">
+        <h1 class="logo">Platinum Bank</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Developer</a></li>
+                <li><a href="#home">Bosh sahifa</a></li>
+                <li><a href="#services">Xizmatlar</a></li>
+                <li><a href="#team">Jamoa</a></li>
+                <li><a href="#calculator">Kalkulyator</a></li>
+                <li><a href="#testimonials">Fikrlar</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+        <div class="mobile-menu"><span>&#9776;</span></div>
+    </div>
+</header>
+
+<!-- Hero Section -->
+<section id="home" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+        <h2 class="hero-title">Moliyaviy kelajagingizni biz bilan yarating</h2>
+        <p class="hero-subtitle">Platinum Bank bilan xavfsiz, tez va qulay bank xizmatlari</p>
+        <a href="#contact" class="btn">Bog'lanish</a>
+    </div>
+</section>
+
+<!-- Services Section -->
+<section id="services">
+    <div class="container">
+        <h2 class="section-title">Bizning Xizmatlarimiz</h2>
+        <div class="services-grid">
+            <div class="service">
+                <h3>Shaxsiy Hisob Raqamlar</h3>
+                <p>Tez va xavfsiz hisob raqam ochish imkoniyati.</p>
+            </div>
+            <div class="service">
+                <h3>Kreditlar</h3>
+                <p>Tez kreditlar, past foiz stavkalari bilan.</p>
+            </div>
+            <div class="service">
+                <h3>Korporativ Xizmatlar</h3>
+                <p>Kompaniyangiz uchun maxsus moliyaviy yechimlar.</p>
+            </div>
+            <div class="service">
+                <h3>Investitsiya</h3>
+                <p>Moliyaviy portfelingizni diversifikatsiya qiling.</p>
+            </div>
+            <div class="service">
+                <h3>Internet Banking</h3>
+                <p>24/7 onlayn bank xizmatlari.</p>
+            </div>
+            <div class="service">
+                <h3>Mobil App</h3>
+                <p>Smartfon orqali tez va qulay bank xizmatlari.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Team Section -->
+<section id="team">
+    <div class="container">
+        <h2 class="section-title">Bizning Jamoa</h2>
+        <div class="team-grid">
+            <div class="team-member">
+                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Member">
+                <h3>Ali Akbarov</h3>
+                <p>Direktor</p>
+            </div>
+            <div class="team-member">
+                <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Member">
+                <h3>Gulbahor Saidova</h3>
+                <p>Moliya Mutaxassisi</p>
+            </div>
+            <div class="team-member">
+                <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Member">
+                <h3>Javohir Karimov</h3>
+                <p>Kredit Mutaxassisi</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Credit Calculator Section -->
+<section id="calculator">
+    <div class="container">
+        <h2 class="section-title">Kredit Kalkulyator</h2>
+        <form id="creditCalc">
+            <label for="amount">Summa (so'm):</label>
+            <input type="number" id="amount" required>
+            <label for="interest">Foiz (%):</label>
+            <input type="number" id="interest" required>
+            <label for="months">Muddati (oy):</label>
+            <input type="number" id="months" required>
+            <button type="submit">Hisoblash</button>
+        </form>
+        <div id="calcResult"></div>
+    </div>
+</section>
+
+<!-- Testimonials Section -->
+<section id="testimonials">
+    <div class="container">
+        <h2 class="section-title">Foydalanuvchi Fikrlari</h2>
+        <div class="testimonial-slider">
+            <div class="testimonial active">
+                <p>"Platinum Bank bilan ishlash juda qulay va tezkor!"</p>
+                <h4>- Ulugbek R.</h4>
+            </div>
+            <div class="testimonial">
+                <p>"Kreditni olish jarayoni juda oson va samarali."</p>
+                <h4>- Nodira S.</h4>
+            </div>
+            <div class="testimonial">
+                <p>"Onlayn banking ilovasi juda qulay va xavfsiz."</p>
+                <h4>- Sardor M.</h4>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FAQ Section -->
+<section id="faq">
+    <div class="container">
+        <h2 class="section-title">Tez-tez so‘raladigan savollar</h2>
+        <div class="faq-item">
+            <h3>Qanday qilib hisob raqam ochish mumkin?</h3>
+            <p>Hisob raqam ochish uchun filialga tashrif buyurishingiz yoki onlayn ariza to‘ldirishingiz mumkin.</p>
+        </div>
+        <div class="faq-item">
+            <h3>Kreditni qanday olish mumkin?</h3>
+            <p>Kredit olish uchun ariza topshiring, hujjatlarni taqdim eting va tasdiqlangandan so‘ng pulni oling.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+    <div class="container">
+        <h2 class="section-title">Kontakt</h2>
+        <form id="contactForm">
+            <input type="text" name="name" placeholder="Ismingiz" required>
+            <input type="email" name="email" placeholder="Emailingiz" required>
+            <textarea name="message" placeholder="Xabar yozing..." required></textarea>
+            <button type="submit">Yuborish</button>
+        </form>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>© 2026 Platinum Bank. Barcha huquqlar himoyalangan.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
